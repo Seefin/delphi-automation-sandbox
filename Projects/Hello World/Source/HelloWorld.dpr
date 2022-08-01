@@ -13,7 +13,7 @@ var
 begin
   x := TMessageGenerator.Create();
   try
-    Writeln(x.DefaultMessage);
+    Writeln('Hi There');
   finally
     x.Free();
   end;
